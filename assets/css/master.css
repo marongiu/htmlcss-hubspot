@@ -40,6 +40,9 @@ body {
   padding: 10px;
 }
 
+.jumbotron-button {
+  padding: 20px 30px;
+}
 
 .orange {
   color: #FE785A;
@@ -129,8 +132,13 @@ nav.nav-bottom ul li a {
 
 /* JUMBOTRON */
 
-.jumbotron {
+.bg {
+  background-image: url('../img/jumbotron.png');
+  background-size: 67%;
+  background-position: right;
+  background-repeat: no-repeat;
   background-color: #FFF4EF;
+  height: 620px;
 }
 
 .jumbotron-title {
@@ -140,4 +148,14 @@ nav.nav-bottom ul li a {
 
 .jumbotron-title h1 {
   font-size: 50px;
+}
+
+.jumbotron-title p{
+  padding-top: 45px;
+  line-height: 25px;
+}
+
+p.jumbotron-text {
+  font-size: 13px;
+  margin-bottom: 10px;
 }
