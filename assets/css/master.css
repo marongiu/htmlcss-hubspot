@@ -19,6 +19,16 @@ body {
   font-family: sans-serif;
 }
 
+[class^="col-"] {
+  float: left;
+}
+
+/* COLONNE WIDTH */
+
+
+.col-50 {
+  width: 50%;
+}
 /* -- UTILITY */
 
 .down::after {
@@ -28,7 +38,8 @@ body {
 li#vertical::after {
   content: "\007C";
   color: grey;
-  padding: 0 10px;
+  padding-left: 8px;
+  padding-right: 10px;
 }
 
 /* HEADER */
@@ -37,6 +48,7 @@ li#vertical::after {
   background-color: #F4F9FD;
 }
 
+/* NAV LEFT */
 nav ul {
   list-style: none;
 }
@@ -49,4 +61,35 @@ nav.nav-left ul li{
 nav.nav-left ul li a {
   text-decoration: none;
   color: #32495B;
+}
+
+/* NAV RIGT */
+
+nav.nav-right {
+  text-align: right;
+}
+
+nav.nav-right ul li{
+  display: inline-block;
+  line-height: 90px;
+  padding: 0 15px;
+}
+
+nav.nav-right ul li a.button {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #FE785A;
+  background-color: #FE785A;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+nav.nav-right ul li a.orange {
+  color: #FE785A;
+  background-color: #ffff;
+}
+
+.fa-search{
+  color: #45D4FF;
 }
