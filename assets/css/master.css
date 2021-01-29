@@ -29,10 +29,11 @@ body {
 .col-50 {
   width: 50%;
 }
+
 /* -- UTILITY */
 
-.down::after {
-  content: "\25BE";
+.down {
+  padding-right: 7px;
 }
 
 li#vertical::after {
@@ -48,6 +49,10 @@ li#vertical::after {
   background-color: #F4F9FD;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+}
 /* NAV LEFT */
 nav ul {
   list-style: none;
@@ -55,7 +60,7 @@ nav ul {
 
 nav.nav-left ul li{
   display: inline-block;
-  line-height: 90px;
+  line-height: 80px;
 }
 
 nav.nav-left ul li a {
@@ -63,7 +68,7 @@ nav.nav-left ul li a {
   color: #32495B;
 }
 
-/* NAV RIGT */
+/* NAV RIGHT */
 
 nav.nav-right {
   text-align: right;
@@ -71,7 +76,7 @@ nav.nav-right {
 
 nav.nav-right ul li{
   display: inline-block;
-  line-height: 90px;
+  line-height: 80px;
   padding: 0 15px;
 }
 
@@ -92,4 +97,8 @@ nav.nav-right ul li a.orange {
 
 .fa-search{
   color: #45D4FF;
+}
+
+.logo {
+  width: 100%;
 }
