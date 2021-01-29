@@ -34,6 +34,14 @@ body {
 .col-100 {
   width: 100%;
 }
+
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
 /* -- UTILITY */
 .button {
   color: white;
@@ -171,7 +179,7 @@ p.jumbotron-text {
   margin-bottom: 10px;
 }
 
-/* MAIN */
+/* MAIN TITLE */
 
 .main-title {
   text-align: center;
@@ -182,9 +190,46 @@ img#cube{
   width: 13%;
 }
 
+.main-title h2 {
+  font-size: 30px;
+}
 
 .main-title p {
   padding-top: 30px;
   font-size: 17px;
   line-height: 30px;
+}
+
+/* MAIN FREEHUBSPOT */
+
+.free-hubspot {
+  background-color: #ffff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20% 18%;
+}
+
+img#book {
+  width: 55%;
+}
+
+.free-hubspot p{
+  padding-top: 20px;
+}
+
+section.popolar-feature {
+  background-color: #ffff;
+  border-radius: 5px;
+  color: #33475B;
+  padding-top: 100px;
+}
+
+.popolar-feature hr{
+  position: absolute;
+}
+
+section.popolar-feature ul li{
+  display: inline-block;
+  list-style: none;
+  padding-left: 25px;
 }
