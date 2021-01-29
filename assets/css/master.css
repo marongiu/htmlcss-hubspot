@@ -31,6 +31,20 @@ body {
 }
 
 /* -- UTILITY */
+.button {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #FE785A;
+  background-color: #FE785A;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.orange {
+  color: #FE785A;
+  background-color: #ffff;
+}
 
 .down {
   padding-right: 7px;
@@ -51,7 +65,10 @@ li#vertical::after {
 
 .fixed {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  overflow: hidden;
 }
 /* NAV LEFT */
 nav ul {
@@ -80,25 +97,47 @@ nav.nav-right ul li{
   padding: 0 15px;
 }
 
-nav.nav-right ul li a.button {
-  color: white;
-  text-decoration: none;
-  border: 1px solid #FE785A;
-  background-color: #FE785A;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-
-nav.nav-right ul li a.orange {
-  color: #FE785A;
-  background-color: #ffff;
-}
 
 .fa-search{
   color: #45D4FF;
 }
 
+/* LOGO + NAV BOTTOM */
+
 .logo {
+  margin-top: 90px;
+  line-height: 90px;
   width: 100%;
+}
+
+.nav-bottom {
+  margin-top: 90px;
+  line-height: 90px;
+  text-align: right;
+}
+
+nav.nav-bottom ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav.nav-bottom ul li a {
+  text-decoration: none;
+  color: #32495B;
+  padding-right: 10px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+  background-color: #FFF4EF;
+}
+
+.jumbotron-title {
+  padding-top: 50px;
+  color: #33475B;
+}
+
+.jumbotron-title h1 {
+  font-size: 50px;
 }
