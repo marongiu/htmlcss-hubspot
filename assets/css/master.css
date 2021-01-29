@@ -175,6 +175,7 @@ p.jumbotron-text {
 
 .main-title {
   text-align: center;
+  color: #33475B;
 }
 
 img#cube{
@@ -182,6 +183,8 @@ img#cube{
 }
 
 
-.main-title h2 {
-  color: #33475B;
+.main-title p {
+  padding-top: 30px;
+  font-size: 17px;
+  line-height: 30px;
 }
