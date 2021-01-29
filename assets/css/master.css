@@ -14,3 +14,39 @@
   width: 70%;
   margin: 0 auto;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+/* -- UTILITY */
+
+.down::after {
+  content: "\25BE";
+}
+
+li#vertical::after {
+  content: "\007C";
+  color: grey;
+  padding: 0 10px;
+}
+
+/* HEADER */
+
+.bg-header {
+  background-color: #F4F9FD;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav.nav-left ul li{
+  display: inline-block;
+  line-height: 90px;
+}
+
+nav.nav-left ul li a {
+  text-decoration: none;
+  color: #32495B;
+}
