@@ -17,6 +17,7 @@
 
 body {
   font-family: sans-serif;
+  height: 15000px;
 }
 
 [class^="col-"] {
@@ -30,6 +31,9 @@ body {
   width: 50%;
 }
 
+.col-100 {
+  width: 100%;
+}
 /* -- UTILITY */
 .button {
   color: white;
@@ -60,6 +64,13 @@ li#vertical::after {
   padding-right: 10px;
 }
 
+.bg-main {
+  background-color: #F4F9FD;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
 /* HEADER */
 
 .bg-header {
@@ -158,4 +169,19 @@ nav.nav-bottom ul li a {
 p.jumbotron-text {
   font-size: 13px;
   margin-bottom: 10px;
+}
+
+/* MAIN */
+
+.main-title {
+  text-align: center;
+}
+
+img#cube{
+  width: 13%;
+}
+
+
+.main-title h2 {
+  color: #33475B;
 }
