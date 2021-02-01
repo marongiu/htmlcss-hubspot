@@ -17,7 +17,6 @@
 
 body {
   font-family: sans-serif;
-  height: 15000px;
 }
 
 [class^="col-"] {
@@ -446,5 +445,85 @@ section.growing-image  {
 
 section.growing-image img {
   width: 50%;
+}
 
+/* FOOTER */
+
+.bg-footer {
+  background-color: #32495B;
+}
+
+.contact {
+  color: #ffff;
+  padding-bottom: 20px;
+}
+
+ul.footer-list {
+  list-style: none;
+  padding-top: 20px;
+}
+
+ul.footer-list li a {
+  color: #CBD6E2;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+a.footer-button {
+  border: 1px solid;
+  background-color: rgba(255,255,255,0.2);
+  color: #32495B;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+ul.icon-list li {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+ul.icon-list li a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* LISTA LINGUE */
+.languages {
+  text-align: center;
+}
+
+ul.list-languages li {
+  display: inline-block;
+}
+
+ul.list-languages li a {
+  color: #CBD6E2;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+#footer-hr {
+  margin-top: 20px;
+  color: #ffff;
+}
+
+/* Fine footer */
+
+.logo-footer {
+  color: #ffff;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+
+.legal-link a {
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 20px;
+  color: #CBD6E2;
 }
