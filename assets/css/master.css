@@ -407,10 +407,11 @@ section.none {
 /* IMMAGINI CUSTUMERS */
 
 .customers-image {
-  text-align: right;
+  text-align: center;
 }
 
 .customers-image img {
-  width: 150px;
+  width: 170px;
   padding: 10px 10px;
+  vertical-align: middle;
 }
