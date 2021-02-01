@@ -145,7 +145,7 @@ nav.nav-right {
 nav.nav-right ul li{
   display: inline-block;
   line-height: 80px;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 
@@ -166,21 +166,22 @@ nav.nav-right ul li{
 }
 
 .nav-bottom {
+  float: right;
   margin-top: 90px;
   line-height: 90px;
-  text-align: right;
+
 }
 
 nav.nav-bottom ul li {
   display: inline-block;
-  padding: 0 15px;
+  padding-right: 5px;
 }
 
 nav.nav-bottom ul li a {
   text-decoration: none;
   color: #32495B;
-  padding-right: 10px;
   vertical-align: middle;
+  padding-right: 5px;
 }
 
 /* JUMBOTRON */
@@ -251,12 +252,12 @@ img#book {
   padding-top: 20px;
 }
 
-section.popolar-feature {
+.popolar-feature {
   background-color: #ffff;
   color: #33475B;
 }
 
-section.popolar-feature ul li {
+.popolar-feature ul li {
   display: inline-block;
   list-style: none;
   padding-right: 20px;
@@ -283,22 +284,22 @@ i.fa-check-circle {
 
 /* MAIN 3 COLONNE MARKETING SALES AND SERVICES */
 
-section.marketing-hub {
+.marketing-hub {
   color: #32495B;
   text-align: center;
   padding: 0% 10%;
 }
 
-section.marketing-hub p {
+.marketing-hub p {
   line-height: 28px;
 }
 
-section.picture img{
+.picture img{
   height: 110px;
   margin-top: 20px;
 }
 
-section.marketing-hub h2 {
+.marketing-hub h2 {
   padding: 6% 0%;
 }
 
@@ -307,13 +308,13 @@ section.marketing-hub h2 {
   padding-bottom: 30%;
 }
 
-section.marketing-feature {
+.marketing-feature {
   text-align: center;
   color: #32495B;
 }
 
 
-section.marketing-feature h3 {
+.marketing-feature h3 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -336,7 +337,7 @@ section.marketing-feature h3 {
   padding-bottom: 80px;
 }
 
-section.data-title {
+.data-title {
   color: #ffff;
 }
 
@@ -352,7 +353,7 @@ section.data-title {
 
 /* HUBSPOT NUMBER */
 
-section.hubspot-user {
+.hubspot-user {
   text-align: center;
   color: #ffff;
   border-bottom: 1px solid #fff;
@@ -377,7 +378,7 @@ h2.big-number {
 
 /* HUBSPOT NUMBER BOTTOM */
 
-section.hubspot-user-bottom {
+.hubspot-user-bottom {
   text-align: center;
   color: #ffff;
   padding-top: 20px;
@@ -386,7 +387,7 @@ section.hubspot-user-bottom {
   padding-bottom: 30px;
 }
 
-section.none {
+.none {
   border-right: hidden;
 }
 
@@ -419,16 +420,16 @@ section.none {
 
 /* <!-- Start Growing with Hubspot --> */
 
-section.growing {
+.growing {
   margin-top: 100px;
   color: #33475B;
 }
 
-section.growing h2 {
+.growing h2 {
   font-size: 33px;
 }
 
-section.growing p {
+.growing p {
   padding-top: 40px;
   padding-right: 20%;
   line-height: 25px;
@@ -438,12 +439,12 @@ section.growing p {
   padding-top: 40px;
 }
 
-section.growing-image  {
+.growing-image  {
   margin-top: 100px;
   text-align: right;
 }
 
-section.growing-image img {
+.growing-image img {
   width: 50%;
 }
 
