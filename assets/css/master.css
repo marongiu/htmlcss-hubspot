@@ -79,10 +79,7 @@ li#vertical::after {
 
 .bg-main {
   background-color: #F4F9FD;
-}
-
-.mt-40 {
-  margin-top: 40px;
+  padding-bottom: 40px;
 }
 
 .pl {
@@ -320,4 +317,16 @@ section.marketing-feature h3 {
 .learn {
   padding-top: 60px;
   padding-bottom: 35px;
+}
+
+/* HUBSPOT INFORMATION USER */
+
+.bg-data {
+  background: linear-gradient(45deg,#00a4bd,#00bda5);
+}
+
+.container-data {
+  width: 65%;
+  margin: 0 auto;
+  color: white;
 }
