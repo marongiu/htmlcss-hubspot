@@ -42,6 +42,11 @@ body {
 .col-70 {
   width: 70%;
 }
+
+.col-35 {
+  width: 35%;
+}
+
 /* -- UTILITY */
 .button {
   color: white;
@@ -79,6 +84,19 @@ li#vertical::after {
 .mt-40 {
   margin-top: 40px;
 }
+
+.pl {
+  padding-left: 5%;
+}
+
+.border {
+  box-shadow: 0 0 1px 1px grey;
+}
+
+.space {
+  margin-top: 28px
+}
+
 /* HEADER */
 
 .bg-header {
@@ -90,7 +108,11 @@ li#vertical::after {
   top: 0;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  z-index: 1;
+}
+
+.white {
+  background-color: #ffff;
 }
 /* NAV LEFT */
 nav ul {
@@ -132,6 +154,10 @@ nav.nav-right ul li{
   width: 100%;
 }
 
+.logo img {
+  vertical-align: middle;
+}
+
 .nav-bottom {
   margin-top: 90px;
   line-height: 90px;
@@ -147,6 +173,7 @@ nav.nav-bottom ul li a {
   text-decoration: none;
   color: #32495B;
   padding-right: 10px;
+  vertical-align: middle;
 }
 
 /* JUMBOTRON */
@@ -206,30 +233,91 @@ img#cube{
   background-color: #ffff;
   border-radius: 5px;
   text-align: center;
-  padding: 20% 18%;
+  padding: 21% 18%;
 }
 
 img#book {
   width: 55%;
 }
 
-.free-hubspot p{
+.free-hubspot p {
   padding-top: 20px;
 }
 
 section.popolar-feature {
   background-color: #ffff;
-  border-radius: 5px;
   color: #33475B;
-  padding-top: 100px;
 }
 
-.popolar-feature hr{
-  position: absolute;
-}
-
-section.popolar-feature ul li{
+section.popolar-feature ul li {
   display: inline-block;
   list-style: none;
-  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.feature-text {
+  position: relative;
+  line-height: 41px;
+  padding: 8% 10%;
+}
+
+i.fa-check-circle {
+  color: #FE937B;
+  padding-right: 8px;
+}
+
+.feature-text hr {
+  position: absolute;
+  top: 61%;
+  left: 36%;
+  height: 2px;
+  width: 50%;
+}
+
+/* MAIN 3 COLONNE MARKETING SALES AND SERVICES */
+
+section.marketing-hub {
+  color: #32495B;
+  text-align: center;
+  padding: 0% 10%;
+}
+
+section.marketing-hub p {
+  line-height: 28px;
+}
+
+section.picture img{
+  height: 110px;
+  margin-top: 20px;
+}
+
+section.marketing-hub h2 {
+  padding: 6% 0%;
+}
+
+
+.marketing-hub p {
+  padding-bottom: 30%;
+}
+
+section.marketing-feature {
+  text-align: center;
+  color: #32495B;
+}
+
+
+section.marketing-feature h3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.marketing-feature ul li {
+  text-align: left;
+  padding: 0% 12%;
+  list-style: none;
+}
+
+.learn {
+  padding-top: 60px;
+  padding-bottom: 35px;
 }
