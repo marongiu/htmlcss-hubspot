@@ -50,6 +50,10 @@ body {
 .col-25 {
   width: 25%;
 }
+
+.col-75 {
+  width: 75%;
+}
 /* -- UTILITY */
 .button {
   color: white;
@@ -384,4 +388,29 @@ section.hubspot-user-bottom {
 
 section.none {
   border-right: hidden;
+}
+
+/* CUSTUMERS */
+
+.customers-title {
+  text-align: center;
+  color: #33475B;
+  padding: 0 17%;
+  line-height: 25px;
+  margin-top: 50px;
+}
+
+.customers-title h2 {
+  font-size: 50px;
+}
+
+/* IMMAGINI CUSTUMERS */
+
+.customers-image {
+  text-align: right;
+}
+
+.customers-image img {
+  width: 150px;
+  padding: 10px 10px;
 }
