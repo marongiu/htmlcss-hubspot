@@ -104,6 +104,7 @@ li#vertical::after {
   margin-top: 40px;
 }
 
+
 /* HEADER */
 
 .bg-header {
@@ -238,7 +239,6 @@ img#cube{
 /* MAIN FREEHUBSPOT */
 
 .free-hubspot {
-  background-color: #ffff;
   border-radius: 5px;
   text-align: center;
   padding: 21% 18%;
