@@ -372,7 +372,8 @@ h2.big-number {
 
 .big-number span {
   font-size: 25px;
-  vertical-align: middle;
+  vertical-align: top;
+  padding-left: 5px;
 }
 
 /* HUBSPOT NUMBER BOTTOM */
@@ -414,4 +415,36 @@ section.none {
   width: 170px;
   padding: 10px 10px;
   vertical-align: middle;
+}
+
+
+/* <!-- Start Growing with Hubspot --> */
+
+section.growing {
+  margin-top: 100px;
+  color: #33475B;
+}
+
+section.growing h2 {
+  font-size: 33px;
+}
+
+section.growing p {
+  padding-top: 40px;
+  padding-right: 20%;
+  line-height: 25px;
+}
+
+.growing-button {
+  padding-top: 40px;
+}
+
+section.growing-image  {
+  margin-top: 100px;
+  text-align: right;
+}
+
+section.growing-image img {
+  width: 50%;
+
 }
