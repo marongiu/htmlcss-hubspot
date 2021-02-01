@@ -47,6 +47,9 @@ body {
   width: 35%;
 }
 
+.col-25 {
+  width: 25%;
+}
 /* -- UTILITY */
 .button {
   color: white;
@@ -92,6 +95,10 @@ li#vertical::after {
 
 .space {
   margin-top: 28px
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 /* HEADER */
@@ -323,10 +330,58 @@ section.marketing-feature h3 {
 
 .bg-data {
   background: linear-gradient(45deg,#00a4bd,#00bda5);
+  padding-bottom: 80px;
 }
 
-.container-data {
-  width: 65%;
-  margin: 0 auto;
-  color: white;
+section.data-title {
+  color: #ffff;
+}
+
+.data-title h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.data-title p {
+  text-align: center;
+  line-height: 30px;
+}
+
+/* HUBSPOT NUMBER */
+
+section.hubspot-user {
+  text-align: center;
+  color: #ffff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+
+p.number {
+  font-size: 14px;
+}
+
+h2.big-number {
+  font-size: 35px;
+}
+
+.big-number span {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+/* HUBSPOT NUMBER BOTTOM */
+
+section.hubspot-user-bottom {
+  text-align: center;
+  color: #ffff;
+  padding-top: 20px;
+  line-height: 40px;
+  border-right: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+section.none {
+  border-right: hidden;
 }
