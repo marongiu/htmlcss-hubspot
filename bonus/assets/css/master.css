@@ -531,9 +531,10 @@ ul.list-languages li a {
 
 /* BONUS */
 
-ul.active li a:hover{
-  background-color: #AFEBE4;
-  border-radius: 5px;
+.nav-bottom ul li a:hover{
+  background: rgb(240,248,255);
+  font-weight: bold;
+  border-radius: 20px;
   border: solid 2px #33475B;
   padding: 5px;
 }
@@ -541,18 +542,27 @@ ul.active li a:hover{
 ul.sub-list {
   position: absolute;
   display: none;
-  background-color: #ffff;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 1;
 }
 
-ul.sub-list li a:hover{
-  background: none;
-  border: none;
-}
-
-
-.nav-bottom li.software:hover ul.sub-list{
+.nav-bottom ul ul li:hover {
   display: block;
+}
+
+
+
+/* LIVECHAT */
+
+.fa-comment {
+  color: #ffff;
+  font-size: 30px;
+}
+
+a.live-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #425B76;
+  padding: 15px;
+  padding-top: 15px;
+  border-radius: 60px;
 }
